@@ -1,0 +1,39 @@
+library('rvest')
+library(xml2)
+library(tidyverse)
+library(janitor)
+library(data.table)
+library(shiny)
+library(shinydashboard)
+library(data.table)
+library(elastic)
+library(elasticsearchr)
+
+elasticsearch-7.12.0
+kibana-7.12.0-darwin-x86_64
+
+
+#### adding R packages list to Elasticsearch index
+
+#cd elasticsearch-7.12.0/bin
+#./elasticsearch
+#./elasticsearch -Epath.data=data2 -Epath.logs=log2
+#./elasticsearch -Epath.data=data3 -Epath.logs=log3
+#GET /_cat/health?v=true
+#curl -X DELETE 'http://localhost:9200/_all'
+
+#curl -H 'Content-Type: application/json' -XPUT 127.0.0.1:9200/shakespeare --data-binary @shakes-mapping.json
+#curl -H 'Content-Type: application/json' -XPOST '127.0.0.1:9200/shakespeare/_bulk?pretty' --data-binary @shakespeare_7.0.json
+#curl -H 'Content-Type: application/json' -XGET '127.0.0.1:9200/shakespeare/_search?pretty' -d '{"query" : {"match_phrase" : {"text_entry" : "to be or not to be"}}}'
+
+#curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
+#curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/shakespeare/doc/_bulk?pretty' --data-binary @shakespeare_6.0.json
+#curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/_bulk?pretty' --data-binary @logs.jsonl
+
+#http://localhost:9200/r_packages_list/_search?q=dbi
+#http://localhost:5601/app/home#/
+
+#http://localhost:9200/bank/account/_search?q=bank
+#http://localhost:9200/_search?q=bank
+#http://localhost:9200/shakespeare/_search?q=%22to%20be%20or%20not%20to%20be%22
+#http://localhost:9200/r_packages_list/_search?pretty=true&q=tidy
