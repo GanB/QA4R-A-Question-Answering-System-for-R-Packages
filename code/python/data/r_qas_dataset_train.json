@@ -1,0 +1,62 @@
+[
+  {
+    "context": "A system for declaratively creating graphics, based on The Grammar of Graphics. ggplot2 is used to Create Elegant Data Visualisations Using the Grammar of Graphics. You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.",
+    "qas": [
+      {
+        "id": "00001",
+        "is_impossible": false,
+        "question": "What is the R package for data visualization?",
+        "answers": [
+          {
+            "text": "ggplot2 is used to Create Elegant Data Visualisations Using the Grammar of Graphics",
+            "answer_start": 81
+          }
+        ]
+      },
+      {
+        "id": "00002",
+        "is_impossible": false,
+        "question": "What is the R package for grammar of graphics?",
+        "answers": [
+          {
+            "text": "ggplot2 is used to Create Elegant Data Visualisations Using the Grammar of Graphics",
+            "answer_start": 81
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context": " Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions. Shiny comes with a variety of built in input widgets. With minimal syntax it is possible to include widgets in your apps. Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions.",
+    "qas": [
+      {
+        "id": "00003",
+        "is_impossible": false,
+        "question": "What is the R package for reactive web application development?",
+        "answers": [
+          {
+            "text": "Shiny is an R package that makes it easy to build interactive web apps straight from R.",
+            "answer_start": 1
+          }
+        ]
+      },
+      {
+        "id": "00004",
+        "is_impossible": false,
+        "question": "how to use shiny?",
+        "answers": [
+          {
+            "text": "Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions.",
+            "answer_start": 402
+          }
+        ]
+      },
+      {
+        "id": "00005",
+        "is_impossible": true,
+        "question": "how to install shiny?",
+        "answers": []
+      }
+    ]
+  }
+]
